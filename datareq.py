@@ -17,5 +17,5 @@ msft = yf.Ticker('MSFT', session = session)
 
 #get all stock info 
 msft.info
-print(msft.info['currentPrice'])
-print(msft.info['totalCash'])
+print(f"The current price of Microsoft is: {msft.info['currentPrice']}")
+
